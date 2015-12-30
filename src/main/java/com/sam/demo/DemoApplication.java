@@ -28,7 +28,7 @@ class restController{
 	public Map getMap(){
 		HashMap map = new HashMap();
 		try {
-			map.put("name", "sam");
+			map.put("name", "samzhu");
 			map.put("doing", "Hello, World!");
 		} catch (Exception e) {
 			throw e;
