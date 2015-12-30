@@ -1,0 +1,9 @@
+server:
+  port: 9001
+
+spring:
+  application.name: springbootDemo
+#  profiles.active: dev
+  http.encoding.charset: UTF-8 # the encoding of HTTP requests/responses
+  http.encoding.enabled: true # enable http encoding support
+  http.encoding.force: true # force the configured encoding
