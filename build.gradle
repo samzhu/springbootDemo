@@ -24,7 +24,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-	mavenCentral()
+	jcenter()
+	//mavenCentral()
 }
 
 
