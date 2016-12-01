@@ -8,6 +8,10 @@ dependencies:
   override:
     - docker info
 
+test:
+  override:
+    - ./gradlew build
+
 deployment:
   hub:
     branch: master
